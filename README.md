@@ -22,4 +22,4 @@ HTML5: Structure of the webpage.
 
 CSS3: Styling, including responsiveness, hover effects, and animations.
 
-JavaScript: Adds interactivity and dynamic behavior like updating workout progress.
+JavaScript: Adds interactivity and dynamic behavior like updating workout progress.  
