@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a6429;
+    
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.profile-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background-color: #7d7d7d;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.edit-button,  .change-button {
+    background-color: #cbb600;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button{
+    margin-left: -200px;
+    background-color: #cbb600;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.back-button:hover {
+    background-color: #ffcc00; /* Slightly brighter shade */
+    transform: translateY(-3px); /* Creates lift effect */
+}
+
+.forget-password {
+    display: block;
+    margin-top: 20px;
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+.main-content {
+    width: 75%;
+    margin-left: 20px;
+    
+}
+
+.membership-plan, .instructor-details, .online-classes {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.membership-plan h2, .instructor-details h2, .online-classes h2 {
+    color: #ffeb3b;
+    margin-left: 20px;
+}
+
+.plan-expiry {
+    color: #ff0303;
+}
+
+.class-box {
+    background-color: #7d7d7d;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px 1.5%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.online-classes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    padding: 80px 0;
+}
+
+.class-box {
+    flex-shrink: 0; 
+    width: 200px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.class-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.class-box button {
+    background-color: #cbb600;
+    border: none;
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.class-box button:hover {
+    background-color: #ffcc00;
+}
+
+.class-box:hover {
+    box-shadow: 0 8px 16px #00000033;
+}
+.class-caption {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 10px 0; 
+}
+
+
+
+
+
+.Edit-picture {
+    background-color: #cbb600; 
+    border: none; 
+    color: #000; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    box-shadow: 0 4px 8px #00000033;
+}
+
+
+
+
+
+
