@@ -15,7 +15,11 @@ Customizable Data: Dynamic content like daily progress or weight can be updated 
 Smooth Animations: Transitions and hover effects for a better user experience.
 
 Modern UI: Uses modern CSS techniques like flexbox and media queries for layout and design.
+
 Technologies Used
+------------------
 HTML5: Structure of the webpage.
+
 CSS3: Styling, including responsiveness, hover effects, and animations.
+
 JavaScript: Adds interactivity and dynamic behavior like updating workout progress.
