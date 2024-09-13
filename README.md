@@ -3,7 +3,7 @@ Gym User Profile
 This project is a responsive Gym User Profile webpage designed to display detailed information about a gym member, including their workout statistics, personal details, and more. The page is built using HTML, CSS, and JavaScript, ensuring responsiveness across various devices.
 
 Features
----------
+---------  
 Responsive Design: Adapts to different screen sizes (desktop, tablet, and mobile).
 
 Profile Overview: Displays user's profile picture, name, age, and fitness level.
